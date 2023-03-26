@@ -185,6 +185,7 @@ header h2 {
   flex-wrap: wrap;
   z-index: 1;
   max-width: 1200px;
+  margin: 0 auto;
 }
 
 .about-container .about-card {
