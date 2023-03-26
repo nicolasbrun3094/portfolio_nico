@@ -285,19 +285,19 @@ header h2 {
 }
 
 .background-cover1 {
-  background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/09/Abstract-Graphic-Art-Background-HD.jpg);
+  background-image: url(../img/background1.webp);
 }
 .background-cover2 {
-  background-image: url(https://images.unsplash.com/photo-1558865869-c93f6f8482af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bW9kZXJuJTIwYXJ0fGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+  background-image: url(../img/background2.webp);
 }
 .background-cover3 {
-  background-image: url(https://c4.wallpaperflare.com/wallpaper/983/328/978/art-vibrant-modern-art-psychedelic-art-wallpaper-preview.jpg);
+  background-image: url(../img/background3.webp);
 }
 .background-cover4 {
-  background-image: url(https://simpleji-images.s3.ap-south-1.amazonaws.com/image/catalog/Adornis-A2W/Conifer/Adornis-A2W-Wallpaper-with-contemporary-art-modern-art-abstract-design-and-Waikawa-Grey-Periwinkle-S-600x600.jpg);
+  background-image: url(../img/background4.webp);
 }
 .background-cover5 {
-  background-image: url(https://wallpaperaccess.com/full/209393.jpg);
+  background-image: url(../img/background5.webp);
 }
 
 .about-card:hover .cover {
