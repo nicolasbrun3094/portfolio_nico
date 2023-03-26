@@ -16,9 +16,11 @@
   background: #000101;
   color: #fefeff;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 body {
   font-family: "font-reg", serif;
   background: #000101;

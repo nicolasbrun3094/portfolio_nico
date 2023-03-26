@@ -3,7 +3,14 @@ const scroll = new LocomotiveScroll({
   smooth: true,
   tablet: { smooth: true },
   smartphone: { smooth: true },
+  smoothMobile: 1,
+  multiplier: 1.0,
 });
+
+// Wait 2 seconds then calculate the new page height
+setTimeout(() => {
+  scroll.update();
+}, 2000);
 
 // Body color
 scroll.on("scroll", () => {
