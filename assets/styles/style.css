@@ -221,11 +221,34 @@ header h2 {
   width: 0;
 }
 #p2 {
+  float: right;
+  clear: both;
   margin: 0 6vw 0 auto;
 }
+
 #p3 {
+  float: left;
+  clear: both;
   margin-left: 8vw;
 }
+
+#p4 {
+  float: right;
+  clear: both;
+  margin: 0 auto 0 10vw;
+}
+
+#p5 {
+  float: left;
+  clear: both;
+  margin: 50px auto 50px 7vw;
+}
+
+#p6 {
+  clear: both;
+  margin: 0 auto 0 40vw;
+}
+
 .project img {
   transition: 0.4s ease-out;
   width: 100%;
