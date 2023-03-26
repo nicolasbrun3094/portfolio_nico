@@ -202,7 +202,7 @@ header h2 {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(5px);
-  background: linear-gradient(to bottom right, #cbd2d0, #ffffff);
+  background: linear-gradient(to bottom right, #c0c0c0, #ffffff);
 }
 
 .about-container .about-card .content {
@@ -214,13 +214,33 @@ header h2 {
 }
 
 .about-container .about-card:hover .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
   transform: translate(0px);
   opacity: 1;
+}
+.about-container .about-card:hover .background-content1 {
+  background-color: #a43202;
+}
+.about-container .about-card:hover .background-content2 {
+  background-color: #9eaebc;
+}
+.about-container .about-card:hover .background-content3 {
+  background-color: #bb8709;
+}
+.about-container .about-card:hover .background-content4 {
+  background-color: #7c8caa;
+}
+.about-container .about-card:hover .background-content5 {
+  background-color: #a698f9;
 }
 
 .about-container .about-card .content h3 {
   position: absolute;
-  top: -65px;
+  top: -35px;
   right: 30px;
   font-size: 8em;
   color: rgba(44, 41, 41, 0.198);
@@ -248,6 +268,38 @@ header h2 {
   border-radius: 20px;
   font-weight: 500;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.background-cover1 {
+  background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/09/Abstract-Graphic-Art-Background-HD.jpg);
+}
+.background-cover2 {
+  background-image: url(https://images.unsplash.com/photo-1558865869-c93f6f8482af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bW9kZXJuJTIwYXJ0fGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+}
+.background-cover3 {
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/983/328/978/art-vibrant-modern-art-psychedelic-art-wallpaper-preview.jpg);
+}
+.background-cover4 {
+  background-image: url(https://simpleji-images.s3.ap-south-1.amazonaws.com/image/catalog/Adornis-A2W/Conifer/Adornis-A2W-Wallpaper-with-contemporary-art-modern-art-abstract-design-and-Waikawa-Grey-Periwinkle-S-600x600.jpg);
+}
+.background-cover5 {
+  background-image: url(https://wallpaperaccess.com/full/209393.jpg);
+}
+
+.about-card:hover .cover {
+  opacity: 0;
 }
 
 .skills {
