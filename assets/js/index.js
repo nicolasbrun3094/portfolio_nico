@@ -22,3 +22,10 @@ scroll.on("scroll", () => {
     document.body.style.color = "#000101";
   }
 });
+
+VanillaTilt.init(document.querySelectorAll(".about-card"), {
+  max: 25,
+  speed: 400,
+  glare: true,
+  "max-glare": 1,
+});
