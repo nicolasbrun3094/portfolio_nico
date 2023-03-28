@@ -476,7 +476,7 @@ footer a {
   transition: 1s;
 }
 
-h5 {
+h6 {
   font-size: 1.5em;
 }
 
@@ -534,13 +534,13 @@ h5 {
   flex-direction: column;
 }
 
-.card .details .content h5 {
+.card .details .content h6 {
   text-align: center;
   font-weight: 700;
   line-height: 1em;
 }
 
-.card .details .content h5 span {
+.card .details .content h6 span {
   color: #e21212;
   font-size: 0.8em;
 }
