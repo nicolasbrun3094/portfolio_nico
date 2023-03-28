@@ -23,6 +23,8 @@ scroll.on("scroll", () => {
   }
 });
 
+// VanillaTilt
+
 VanillaTilt.init(document.querySelectorAll(".about-card"), {
   max: 25,
   speed: 400,
