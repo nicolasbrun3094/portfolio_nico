@@ -623,3 +623,23 @@ h6 {
     width: 215px;
   }
 }
+
+@media screen and (max-width: 430px) {
+  .card {
+    width: 175px;
+  }
+
+  .card .details .content {
+    margin-right: 30px;
+  }
+
+  .card .details .content .social-icons a {
+    width: 20px;
+    background: white;
+    color: #333;
+  }
+
+  .btn-refresh {
+    width: 90%;
+  }
+}
