@@ -534,13 +534,13 @@ h6 {
   flex-direction: column;
 }
 
-.card .details .content h6 {
+.card .details .content .text-card {
   text-align: center;
   font-weight: 700;
   line-height: 1em;
 }
 
-.card .details .content h6 span {
+.card .details .content .text-card span {
   color: #e21212;
   font-size: 0.8em;
 }
