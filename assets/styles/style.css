@@ -622,6 +622,10 @@ h6 {
   .card {
     width: 215px;
   }
+
+  .card .details .content {
+    margin-right: 10%;
+  }
 }
 
 @media screen and (max-width: 430px) {
@@ -641,5 +645,15 @@ h6 {
 
   .btn-refresh {
     width: 90%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .card {
+    width: 150px;
+  }
+
+  .card .details .content {
+    margin-right: 25%;
   }
 }
